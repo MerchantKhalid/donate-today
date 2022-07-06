@@ -1,12 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;;
 }
+section{
+    margin-top: 29px;
+}
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/donation1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/donation13.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -24,8 +29,8 @@
 }
 .btn{
     background-color:rgb(241, 51, 51);
-    padding: 12px;
-    margin-top: 18px;
+    padding: 16px;
+    margin-top: 30px;
     color: #fff;
     border: 1px solid rgb(241, 51, 51) ;
     border-radius: 5px;
@@ -61,6 +66,13 @@
     
 
 }
+p{
+    color:grey
+}
+.parag{
+    color: #fff;
+    text-align: left;
+}
 .extra{
     background-color: rgb(247, 203, 179);
     border: 1px solid rgb(245, 100, 22);
@@ -82,3 +94,92 @@ hr{
     margin-top: 10px;
     
 }
+.division{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    padding: 10px;
+  
+}
+.category{
+    /* margin: 0 auto; */
+    margin-left: 16px;
+    border-radius: 5px;
+    width: 400px;
+    height: 220px;
+    padding: 16px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.first{
+    background-color: #4F9DA6;
+
+}
+.second{
+    background-color: #FF5959;
+}
+.third{
+    background-color:#e75757;
+}
+.how_contribute{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8%;
+    width: 90%;
+}
+.contribute{
+    padding: 40px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.updates{
+    text-align: center;
+}
+.mail{
+    margin-top: 28px;
+    width: 80%;
+    height: 180px;
+   margin-left:10%;
+    background-color: #e75757;
+    text-align: center;
+    border-radius: 5px 0 0 0;
+    
+}
+
+
+/* input */
+.text_in{
+    
+    width: 30%;
+    height: 40px;
+    top: 50%;
+    margin-top: 65px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(215, 181, 181);
+      
+}
+footer{
+    background-color: black;
+    width: 80%;
+    height: 170px;
+    margin-left: 10%;
+    
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+    
+}
+footer p{
+    margin-left: 45%;
+}
+
+
+
